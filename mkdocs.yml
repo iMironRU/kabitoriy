@@ -1,0 +1,6 @@
+site_name: Кабиторий
+docs_dir: docs
+nav:
+  - Главная: index.md
+  - Онбординг: onboarding.md
+# Наполняется при релизе.

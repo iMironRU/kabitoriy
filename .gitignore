@@ -1,0 +1,38 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+
+# --- Node / React (frontend/) ---
+node_modules/
+dist/
+build/
+.env
+.env.local
+npm-debug.log*
+yarn-error.log*
+
+# --- 1С (EDT-проект) ---
+# Сборочные/бинарные артефакты:
+*.cf
+*.cfu
+*.cfe
+*.dt
+*.1cd
+*.log
+*.lck
+# EDT-специфичное:
+.settings/
+bin/
+
+# --- Инструменты / вспомогательное ---
+tools/
+*.zip
+
+# --- cc-1c-skills (проект 1С) ---
+.v8-project.json
+base/
+*.epf
+*.erf

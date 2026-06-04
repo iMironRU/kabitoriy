@@ -1,0 +1,13 @@
+Кабиторий — код (1c/, frontend/, deploy/).
+
+Софтверная лицензия не финализирована.
+Рекомендация: Apache-2.0 (патентная оговорка, дружелюбна к контрибьюции).
+Если нужен share-alike в духе CC BY-SA на документацию — AGPL-3.0.
+
+Действие: заменить этот файл каноническим текстом выбранной лицензии:
+  Apache-2.0  https://www.apache.org/licenses/LICENSE-2.0.txt
+  MIT         https://opensource.org/license/mit
+  GPL-3.0     https://www.gnu.org/licenses/gpl-3.0.txt
+  AGPL-3.0    https://www.gnu.org/licenses/agpl-3.0.txt
+
+SPDX-License-Identifier: NONE  (заполнить после выбора)
