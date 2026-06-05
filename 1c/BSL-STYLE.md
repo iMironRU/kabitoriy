@@ -305,6 +305,22 @@ _ИмяПеременной   // подчёркивание в начале
 3. **Метаданные:** структуру проверять через cc-1c-skills (`meta-info`/`cf-info`), правки валидировать (`*-validate`).
 4. **Синтаксис/качество:** код проходит **bsl-language-server** без ошибок уровня Error; кастомные правила под MUST-инварианты — см. `CLAUDE.md` «Проверяемость инвариантов».
 
+### Статический анализ — bsl-language-server
+
+Запускается локально, **лицензия 1С не нужна** (Java-анализатор). Конфигурация проекта — `.bsl-language-server.json` в корне (язык `ru`, словарь Typo). Требует Java 21+.
+
+```bash
+# jar (≈110 МБ) — в tools/ (gitignored), скачать один раз:
+curl -fsSL -o tools/bsl-ls/bsl-language-server.jar \
+  https://github.com/1c-syntax/bsl-language-server/releases/download/v0.29.0/bsl-language-server-0.29.0-exec.jar
+
+# анализ исходников standalone:
+java -jar tools/bsl-ls/bsl-language-server.jar analyze \
+  -s 1c/standalone/src -c .bsl-language-server.json -r json -o /tmp/bslls
+```
+
+Цель — **0 диагностик уровня Error/Warning**. Намеренные `// TODO`-маркеры слайсов дают Hint `UsingServiceTag` — допустимо до их закрытия.
+
 ---
 
 ## Чек-лист ревью (BSL)
