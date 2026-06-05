@@ -251,6 +251,6 @@
 			<Document>Кабиторий_ОказаниеУслуги</Document>
 			<Enum>Кабиторий_СостоянияОказанияУслуги</Enum>
 			<Enum>Кабиторий_ИсходыОказанияУслуги</Enum>
-		</ChildObjects>
+		<Enum>Кабиторий_СостоянияНамерения</Enum><Enum>Кабиторий_ВидыИсходящихЭффектов</Enum><InformationRegister>Кабиторий_ИсходящиеНамерения</InformationRegister></ChildObjects>
 	</Configuration>
 </MetaDataObject>
