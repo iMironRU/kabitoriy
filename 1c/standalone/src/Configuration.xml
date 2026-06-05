@@ -246,6 +246,8 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<DefinedType>Кабиторий_Пользователь</DefinedType>
+			<Catalog>Кабиторий_ПричиныБлокировок</Catalog>
 			<Document>Кабиторий_ОказаниеУслуги</Document>
 			<Enum>Кабиторий_СостоянияОказанияУслуги</Enum>
 			<Enum>Кабиторий_ИсходыОказанияУслуги</Enum>
