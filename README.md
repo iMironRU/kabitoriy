@@ -22,6 +22,11 @@ docs/              → MkDocs (+ onboarding.md, reglament/)
 roadmap/
 ```
 
+## Сборка и тесты
+- **Тесты** (YAxUnit, ядро): `bash scripts/run-tests.sh` — см. `1c/standalone/tests/README.md`.
+- **Релизы** (`.cf`/`.cfe` в GitHub Releases): `bash scripts/build-release.sh <tag>` — собирает из исходников и публикует. Требует локальную платформу 1С (путь в `.v8-project.json`).
+- Готовые сборки: [Releases](https://github.com/iMironRU/kabitoriy/releases).
+
 ## Запуск
 TBD — появится вместе с первой рабочей сборкой (`deploy/`).
 
