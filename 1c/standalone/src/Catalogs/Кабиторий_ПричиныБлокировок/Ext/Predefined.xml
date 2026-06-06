@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.17">
+	<Item id="c537b3f7-2411-4e93-9479-f6d224448424">
+		<Name>Приостановка</Name>
+		<Code></Code>
+		<Description>Приостановка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3fe8ee9a-af46-490b-9026-ac404b918b19">
+		<Name>ОжиданиеДокументов</Name>
+		<Code></Code>
+		<Description>Ожидание документов</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4947bdf5-ef96-4975-84e0-14fb2b23961d">
+		<Name>Доработка</Name>
+		<Code></Code>
+		<Description>Доработка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f6827c1b-dd84-4e15-a2c8-a0eec6d2940d">
+		<Name>ОжиданиеОтвета</Name>
+		<Code></Code>
+		<Description>Ожидание ответа</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7d13fcb1-ae18-47d6-a1fb-7eb825b8b828">
+		<Name>ОжиданиеОплаты</Name>
+		<Code></Code>
+		<Description>Ожидание подтверждения оплаты</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

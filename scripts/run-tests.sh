@@ -26,11 +26,9 @@ test -f "$YAX" || { echo "Нет $YAX (скачать YAxUnit cfe)"; exit 1; }
 
 guard() { perl -e 'alarm 240; exec @ARGV' "$@"; }
 
-# Свежая ИБ, если её нет
-if [ ! -f "$IB/1Cv8.1CD" ]; then
-  rm -rf "$IB"; mkdir -p "$IB"
-  guard "$V8" CREATEINFOBASE File="$IB" /DisableStartupDialogs >/dev/null
-fi
+# Свежая ИБ на каждый прогон — изоляция тестовых данных между запусками
+rm -rf "$IB"; mkdir -p "$IB"
+guard "$V8" CREATEINFOBASE File="$IB" /DisableStartupDialogs >/dev/null
 
 echo "[1/5] главная конфигурация";  guard "$V8" DESIGNER /F"$IB" /LoadConfigFromFiles "$SRC" /UpdateDBCfg /DisableStartupDialogs /Out "$LOG" >/dev/null
 echo "[2/5] расширение YAxUnit";     guard "$V8" DESIGNER /F"$IB" /LoadCfg "$YAX" -Extension YAxUnit /UpdateDBCfg /DisableStartupDialogs /Out "$LOG" >/dev/null
