@@ -246,11 +246,17 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<CommonModule>Кабиторий_ДоменныеСобытия</CommonModule>
 			<DefinedType>Кабиторий_Пользователь</DefinedType>
 			<Catalog>Кабиторий_ПричиныБлокировок</Catalog>
 			<Document>Кабиторий_ОказаниеУслуги</Document>
 			<Enum>Кабиторий_СостоянияОказанияУслуги</Enum>
 			<Enum>Кабиторий_ИсходыОказанияУслуги</Enum>
-		<Enum>Кабиторий_СостоянияНамерения</Enum><Enum>Кабиторий_ВидыИсходящихЭффектов</Enum><InformationRegister>Кабиторий_ИсходящиеНамерения</InformationRegister><InformationRegister>Кабиторий_ОбработанныеСообщения</InformationRegister></ChildObjects>
+			<Enum>Кабиторий_СостоянияНамерения</Enum>
+			<Enum>Кабиторий_ВидыИсходящихЭффектов</Enum>
+			<Enum>Кабиторий_ВидыДоменныхСобытий</Enum>
+			<InformationRegister>Кабиторий_ИсходящиеНамерения</InformationRegister>
+			<InformationRegister>Кабиторий_ОбработанныеСообщения</InformationRegister>
+		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
