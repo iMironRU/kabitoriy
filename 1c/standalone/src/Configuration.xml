@@ -247,7 +247,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<CommonModule>Кабиторий_ДоменныеСобытия</CommonModule>
-			<DefinedType>Кабиторий_Пользователь</DefinedType>
+			<CommonModule>Кабиторий_ИнтеграцияИсполнение</CommonModule><CommonModule>Кабиторий_ИсходящиеЭффекты</CommonModule><ScheduledJob>Кабиторий_ОбработкаИсходящихНамерений</ScheduledJob><DefinedType>Кабиторий_Пользователь</DefinedType>
 			<Catalog>Кабиторий_ПричиныБлокировок</Catalog>
 			<Document>Кабиторий_ОказаниеУслуги</Document>
 			<Enum>Кабиторий_СостоянияОказанияУслуги</Enum>

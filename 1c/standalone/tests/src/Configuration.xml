@@ -66,6 +66,6 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Role>ОМ_ОсновнаяРоль</Role>
-		<CommonModule>ОМ_ТестыОказаниеУслуги</CommonModule><CommonModule>ОМ_ТестыИсходящиеНамерения</CommonModule><CommonModule>ОМ_ТестыОбработанныеСообщения</CommonModule><CommonModule>ОМ_ТестыДоменныеСобытия</CommonModule></ChildObjects>
+		<CommonModule>ОМ_ТестыОказаниеУслуги</CommonModule><CommonModule>ОМ_ТестыИсходящиеНамерения</CommonModule><CommonModule>ОМ_ТестыОбработанныеСообщения</CommonModule><CommonModule>ОМ_ТестыДоменныеСобытия</CommonModule><CommonModule>ОМ_ТестыИсходящиеЭффекты</CommonModule></ChildObjects>
 	</Configuration>
 </MetaDataObject>
